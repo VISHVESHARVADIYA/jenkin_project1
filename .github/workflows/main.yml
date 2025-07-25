@@ -13,7 +13,7 @@ jobs:
       - name: Trigger Jenkins
         uses: appleboy/jenkins-action@master
         with:
-          url: "YOUR_JENKINS_URL"
-          user: "YOUR_JENKINS_USERNAME"
+          url: "http://192.168.66.195:8080/"
+          user: "Vishveshrvadiya"
           token: ${{ secrets.JENKINS_API_TOKEN }}
           job: "YOUR_JENKINS_PIPELINE_NAME"
